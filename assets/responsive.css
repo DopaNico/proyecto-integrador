@@ -1,0 +1,148 @@
+@media(max-width: 2580px) and (min-width: 1600px){
+    .hero {
+        background-size: cover;
+        height: 800px;
+    }
+
+    .about {
+        max-width: 1500px;
+    }
+
+    .services-info-details {
+        width: 300px;
+    }
+
+    .contacto {
+        align-items: center;
+    }
+
+    .contacto h2 {
+        width: 1500px;
+    }
+
+    .contacto-footer {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 992px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        position: absolute;
+        top: 79px;
+        left: 5%;
+        background-color: var(--cream-bg);
+        width: 90%;
+        padding: 20px;
+        display: none;
+    }
+
+    #menu-toggle:checked + .nav-list {
+        display: flex;
+    }
+
+    nav i {
+        display: block;
+    }
+
+    nav .log-in-list {
+        flex-direction: column;
+    }
+
+    .hero {
+        background-size: cover;
+        height: 300px;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+
+
+    .about img {
+        width: 250px;
+        height: 420px;
+        display: none;
+    }
+
+    .about-info {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .about-info h2 {
+        font-size: 24px;
+    }
+    
+    .about-info p {
+        font-size: 14px;
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    .about-info button {
+        width: 100px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .services {
+        margin-top: 0px;
+        padding: 70px;
+    }
+
+    .services h2 {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .services-info {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .services-info-details p {
+        width: 25%;
+    }
+
+    .services-info-details .img-box {
+        width: 70px;
+        height: 75px;
+    }
+
+    .services-info-details img {
+        width: 30px;
+    }
+
+    .contacto {
+        text-align: center;
+    }
+
+    .contacto-footer {
+        flex-direction: column;
+    }
+
+    .contacto-info {
+        justify-content: center;
+    }
+
+    .contacto-info-details {
+        align-items: center;
+    }
+
+    iframe {
+        width: 350px;
+    }
+    
+}
