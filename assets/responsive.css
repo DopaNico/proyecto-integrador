@@ -186,6 +186,19 @@
         width: 165px;
     }
 
+    .cards h2 {
+        font-size: 24px;
+    }
+
+    .cards-perros {
+        width: 320px;
+    }
+
+    .cards-perros img {
+        height: 320px;
+        width: 285px;
+    }
+
     .contacto-info {
         flex-direction: column;
     }
