@@ -146,3 +146,54 @@
     }
     
 }
+
+@media(max-width: 576px) {
+    .hero {
+        background-position-x: -90px;
+        background-position-y: 0;
+        height: 385px;
+
+    }
+
+    .hero h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .hero p {
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .btn-primary,
+    .btn-secondary {
+        padding: 10px 50px;
+        font-size: 12px;
+        width: 165px;
+    }
+
+    .contacto-info {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 250px;
+    }
+
+    .about {
+        margin-top: 0;
+    }
+
+    .about-info p {
+        width: 100%;
+    }
+
+    .services-info-details p {
+        font-size: 12px;
+        width: 50%;
+    }
+
+    .rights {
+        font-size: 8px;
+    }
+}
