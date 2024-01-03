@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets/animacion.css">
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="./assets/responsive.css">
     <title>Hogar San Roque</title>
@@ -17,10 +18,11 @@
             </label>
             <input type="checkbox" id="menu-toggle">
             <ul class="nav-list">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Adopción</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#adopcion">Adopción</a></li>
+                <li><a href="#contact">Contacto</a></li>
                 <div class="log-in">
                     <ul class="log-in-list">
                         <li><a href="login.html">Log In</a></li>
@@ -28,10 +30,11 @@
                     </ul>
                 </div>
             </ul>
+            <div class="overlay"></div>
         </nav>
     </header>
     <main>
-        <section class="hero">
+        <section class="hero" id="hero">
             <h1>Bienvenidos al Hogar San Roque</h1>
             <p>Para perros abandonados y maltratados en recuperación.</p>
             <div class="btn-hero">
@@ -39,7 +42,7 @@
                 <button class="btn-secondary">Compartir</button>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <div class="about-img">
                 <img src="./assets/about.jpg" alt="Perro">
             </div>
@@ -49,7 +52,7 @@
                 <button>Saber más</button>
             </div>
         </section>
-        <section class="services">
+        <section class="services" id="services">
             <h2>Nuestros <span>Servicios</span></h2>
             <div class="services-info">
                 <div class="services-info-details">
@@ -84,7 +87,7 @@
                 </div>
             </div>
         </section>
-        <section class="cards">
+        <section class="cards" id="adopcion">
             <h2>Nuestros <span>San Roquitos</span></h2>
             <div class="cards-container">
                 <div class="cards-perros">
@@ -138,7 +141,7 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer id="contact">
         <div class="contacto">
             <h2>Contacto</h2>
             <div class="contacto-footer">

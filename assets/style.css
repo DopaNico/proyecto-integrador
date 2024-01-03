@@ -56,9 +56,9 @@ nav i {
     display: none;
 }
 
-nav a:hover {
+/* nav a:hover {
     color: var(--text-cream-dark);
-}
+} */
 
 .nav-list {
     display: flex;
@@ -68,6 +68,10 @@ nav a:hover {
 nav .log-in-list {
     display: flex;
     gap: 20px
+}
+
+.nav-list li {
+    padding: 10px 0 10px 0;
 }
 
 #menu-toggle {
@@ -167,11 +171,11 @@ main {
 }
 
 .about-info h2 {
-    font-size: 42px;
+    font-size: 36px;
 }
 
 .about-info p {
-    font-size: 22px;
+    font-size: 18px;
     width: 100%;
     margin-top: 50px;
 }
@@ -186,7 +190,7 @@ main {
     padding: 20px;
     border: none;
     background-color: var(--cream-bg);
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
     cursor: pointer;
 }
@@ -194,7 +198,6 @@ main {
 /* Services section */
 
 .services {
-    margin-top: 90px;
     display: flex;
     flex-direction: column;
     padding: 100px;
@@ -255,6 +258,11 @@ main {
     /* max-width: 1000px; */
     flex-direction: column;
     align-items: center;
+    padding: 30px;
+}
+
+.cards h2 {
+    font-size: 32px;
 }
 
 .cards span {
