@@ -80,6 +80,9 @@
         text-align: center;
     }
 
+    .about {
+        gap: 0;
+    }
 
     .about-info h2 {
         font-size: 24px;
