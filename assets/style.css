@@ -43,7 +43,8 @@ header img {
 
 nav {
     display: flex;
-    gap: 50px
+    gap: 50px;
+
 }
 
 nav a {

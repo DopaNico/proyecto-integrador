@@ -90,6 +90,14 @@ html {
     border: 2px solid var(--text-cream-dark);
 }
 
+.cards-perros button {
+    transition: all 0.2s ease-out;
+}
+
+.cards-perros button:hover {
+    background-color: var(--text-cream-dark);
+}
+
 /* Animacion Opacidad */
 
 @keyframes fade {
@@ -123,6 +131,17 @@ html {
     }
 }
 
+/* Animacion de izquierda hacia derecha */
+
+@keyframes slide-left {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(20px);
+    }
+}
+
 h1 {
     animation: fade 1s ease-in, slide-up 0.9s ease-in-out;
 }
@@ -139,3 +158,54 @@ h1 {
     animation-delay: 1s;
 }
 
+
+.about-img {
+    opacity: 0;
+    animation: fade 1s ease-in forwards, slide-right 0.9s ease-in-out;
+    animation-delay: 2s
+}
+
+.about-info {
+    opacity: 0;
+    animation: fade 1s ease-in forwards, slide-up 0.9s ease-in-out;
+    animation-delay: 2s
+}
+
+.services h2 {
+    opacity: 0;
+    animation: fade 0.8s ease-in forwards, slide-up 0.9s ease-in-out ;
+    animation-delay: 4s;
+}
+
+.services-info-details {
+    opacity: 0;
+    animation: fade 0.8s ease-in forwards, slide-up 1.3s ease-in-out
+} 
+
+.services-info-details:nth-child(1) {
+    animation-delay: 5s;
+}
+
+.services-info-details:nth-child(2) {
+    animation-delay: 5.5s;
+}
+
+.services-info-details:nth-child(3) {
+    animation-delay: 6s;
+}
+
+.services-info-details img {
+    transition: all 0.3s linear;
+}
+
+.services-info-details img:hover {
+    transform: scale(1.09);
+}
+
+.cards-perros img {
+    transition: all 0.3s linear;
+}
+
+.cards-perros img:hover {
+    transform: scale(1.05);
+}
