@@ -39,14 +39,16 @@
         background-color: var(--cream-bg);
         width: 90%;
         padding: 20px;
-        display: none;
+        /* display: none; */
         z-index: 30;
-
+        transform: translateX(200%);
+        transition: all 0.4s ease;
       
     }
 
-    #menu-toggle:checked + .nav-list {
-        display: flex;
+    #menu-toggle:checked ~ .nav-list {
+        /* display: flex; */
+        transform: translateX(0);
     }
 
     nav i {
