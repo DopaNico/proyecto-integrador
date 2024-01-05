@@ -25,7 +25,17 @@
     }
 }
 
+@media(max-width: 1200px) {
+    iframe {
+        width: 330px;
+    } 
+}
+
 @media(max-width: 992px) {
+    header {
+        padding: 15px 60px;
+    }
+
     .menu-toggle {
         display: flex;
 
@@ -34,21 +44,21 @@
     .nav-list {
         flex-direction: column;
         position: absolute;
-        top: 79px;
+        top: 58px;
         left: 5%;
         background-color: var(--cream-bg);
         width: 90%;
         padding: 20px;
         /* display: none; */
         z-index: 30;
-        transform: translateX(200%);
+        transform: translateY(-200%);
         transition: all 0.4s ease;
       
     }
 
     #menu-toggle:checked ~ .nav-list {
         /* display: flex; */
-        transform: translateX(0);
+        transform: translateY(0);
     }
 
     nav i {
@@ -166,6 +176,7 @@
     }
 }
 
+
 @media(max-width: 576px) {
     .hero {
         background-position-x: -90px;
@@ -227,5 +238,82 @@
 
     .rights {
         font-size: 8px;
+    }
+}
+
+@media (max-width: 280px) {
+    header {
+        padding: 15px 20px;
+    }
+
+    .hero {
+        background-position-x: -60px;
+        background-position-y: 0;
+        height: 250px;
+    }
+
+    .hero h1 {
+        font-size: 18px;
+    }
+
+    .hero p {
+        font-size: 10px;
+    }
+
+    .btn-hero {
+        gap: 5px;
+        top: 15px;
+        flex-direction: column;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        padding: 10px 20px;
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .services {
+        padding: 20px;
+    }
+
+    .cards {
+        padding: 10px;
+        margin-top: 15px;
+    }
+
+    .cards-container {
+        max-width: 70px;
+
+    }
+
+    .cards-perros {
+        width: 200px;
+    }
+
+    .cards-perros img {
+        height: 150px;
+        width: 155px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+
+    .contacto-footer {
+        gap: 20px
+    }
+
+    iframe {
+        width: 150px;
+        height: 210px;
+    }
+
+    .rights {
+        margin-top: 5px;
+    }
+
+    .rights p {
+        text-align: center;
     }
 }
