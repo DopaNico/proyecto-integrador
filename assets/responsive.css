@@ -26,6 +26,10 @@
 }
 
 @media(max-width: 1200px) {
+    .hero h1 {
+        font-size: 52px;
+    }
+
     iframe {
         width: 330px;
     } 
@@ -179,25 +183,30 @@
 
 @media(max-width: 576px) {
     .hero {
-        background-position-x: -90px;
-        background-position-y: 0;
+        background-position: center;
         height: 385px;
+        padding: 30px;
+    }
 
+    .btn-hero {
+        gap: 10px;
     }
 
     .hero h1 {
         font-size: 32px;
         text-align: center;
+        width: 50%;
+        line-height: 1.2;
     }
 
     .hero p {
-        font-size: 12px;
+        font-size: 14px;
         text-align: center;
     }
     
     .btn-primary,
     .btn-secondary {
-        padding: 10px 50px;
+        padding: 10px 25px;
         font-size: 12px;
         width: 165px;
     }

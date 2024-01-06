@@ -347,7 +347,7 @@ footer {
     box-shadow: -1px 1px 16px 1px rgba(0,0,0,0.75);
     -webkit-box-shadow: -1px 1px 16px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 1px 16px 1px rgba(0,0,0,0.75);
-    padding: 30px;
+    padding: 50px;
 }
 
 .contacto {
@@ -361,14 +361,15 @@ footer {
 }
 
 .contacto h2 {
-    font-size: 36px;
+    font-size: 42px;
     border-bottom: 1px solid var(--text-black);
  
 }
 
 .contacto-footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     gap: 50px;
 }
 
@@ -422,4 +423,5 @@ footer {
 .rights {
     display: flex;
     justify-content: center ;
+    margin-top: 5px;
 }
