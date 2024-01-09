@@ -250,7 +250,31 @@
     }
 }
 
-@media (max-width: 280px) {
+@media(max-width: 380px) {
+    .hero h1 {
+        font-size: 26px;
+
+    }
+     .btn-hero {
+        flex-direction: column;
+        top: 25px;
+     }
+
+     .services {
+        padding: 25px;
+     }
+
+     .cards-perros,
+     .cards-perros2 {
+        width: 275px;
+     }
+
+     .rights {
+        text-align: center;
+     }
+}
+
+@media(max-width: 320px) {
     header {
         padding: 15px 20px;
     }

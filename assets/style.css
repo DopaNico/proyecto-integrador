@@ -38,7 +38,7 @@ header {
 
 header img {
     width: 50px;
-
+    filter: drop-shadow(0px 0px 0px #313131);
 }
 
 nav {
@@ -364,7 +364,26 @@ main {
     -moz-box-shadow: -2px 1px 15px 1px rgba(0,0,0,0.75);
 }
 
-.cards-perros:hover {
+.cards-perros2 {
+    background: url(../assets/portada2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 425px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: scale 750ms ease-out, filter 250ms ease-in-out;
+    box-shadow: -2px 1px 15px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 1px 15px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 1px 15px 1px rgba(0,0,0,0.75);
+}
+
+
+
+.cards-perros:hover,
+.cards-perros2:hover {
   scale: 1.05;
 
 }
@@ -402,6 +421,20 @@ main {
     background-color: transparent;
     color: rgb(255, 255, 86);
     border: 2px solid rgb(255, 255, 86);
+}
+
+.btn-cards .btn-2 {
+    background-color: var(--white-bg);
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.btn-cards .btn-2:hover {
+    font-weight: bold;
+    background-color: transparent;
+    color: var(--white-bg);
+    border: 2px solid var(--white-bg);
 }
 
 /* footer */
@@ -482,6 +515,8 @@ footer {
 .logo-footer {
     display: flex;
     justify-content: center;
+    filter: drop-shadow(0px 0px 0px #313131);
+
     
 }
 
