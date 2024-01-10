@@ -147,23 +147,23 @@ body {
     }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 360px) {
     .login-box {
-        width: 200px;
-        height: 270px;
+        width: 290px;
+        height: 370px;
     }
 
     .login-box h1 {
-        font-size: 16px;
-        padding: 10px;
+        font-size: 20px;
+        padding: 15px;
     }
 
-    .login-box img {
+    /* .login-box img {
         width: 45px;
-    }
+    } */
 
     .login-box label {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .login-box input {
@@ -178,11 +178,11 @@ body {
 
     .login-box button {
         padding: 5px;
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .links {
         gap: 5px;
-        font-size: 8px;
+        font-size: 10px;
     }
 }
