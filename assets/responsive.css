@@ -362,11 +362,3 @@
     }
 }
 
-/* Login Responsive */
-
-@media(max-width: 2560px) and (min-width: 1600px) {
-    .login-box {
-        width: 460px;
-        height: 520px;
-    }
-}

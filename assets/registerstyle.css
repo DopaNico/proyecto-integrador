@@ -14,13 +14,15 @@
 }
 
 
-.container-portada img {
-    width: 900px;
-    height: 100vh;
+.container-portada  {
+    background:url(../assets/portada2.jpg)no-repeat center/cover;
+    width: 70%;
+    height: 150vh;
 }
 
 .container-box {
     margin: 0 70px;
+    padding: 20px;
 }
 
 .register-box {
@@ -37,9 +39,19 @@
     align-items: center;
 }
 
-.register-box img {
-    width: 150px;
+.title h1 {
+    font-size: 24px;
+    text-align: center;
+}
 
+.title p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.register-box img {
+    width: 80px;        
+    margin-bottom: 10px;
 }
 
 form {
@@ -55,7 +67,7 @@ form {
     display: flex;
     gap: 10px;    
     width: 100%;
-    
+    flex-direction: column;
 }
 
 .input-container label {
@@ -103,4 +115,104 @@ button:hover {
     background-color: transparent;
     border: 3px solid blanchedalmond;
     font-weight: bold;
+}
+
+/* Responsive */
+
+@media(max-width: 2560px) and (min-width: 1500px) {
+    .container-portada {
+        width: 75%;
+        height: 100vh;
+    }
+
+    .container-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .register-box img {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .title h1 {
+        font-size: 42px;
+    }
+
+    .title p {
+        font-size: 24px;
+    }
+
+    .input-container label {
+        font-size: 24px;
+    }
+
+    .input-container input[type="email"], 
+    .input-container input[type="password"], 
+    .input-container input[type="date"], 
+    .input-container input[type="number"], 
+    .input-container input[type="text"] {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 22px;
+        padding: 20px 45px;
+    }
+}
+
+
+@media(max-width: 992px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container-portada {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .container-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .register-box img {
+        width: 100px;
+    }
+
+    .title {
+        gap: 5px;
+
+    }
+    
+    .title h1 {
+    text-align: center;
+    font-size: 24px;
+    }
+
+    .title p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .input-container {
+        flex-direction: column;
+    }
+
+    .input-container label {
+        font-size: 14px;
+    }
+
+    .input-container input[type="email"], 
+    .input-container input[type="password"], 
+    .input-container input[type="date"], 
+    .input-container input[type="number"], 
+    .input-container input[type="text"] {
+        font-size: 12px;
+    }
 }
