@@ -190,10 +190,30 @@ h1 {
     transform: scale(1.09);
 }
 
-.cards-perros img {
-    transition: all 0.3s linear;
+.cards-perros:nth-child(1):hover,
+.cards-perros:nth-child(2):hover,
+.cards-perros:nth-child(3):hover,
+.cards-perros:nth-child(4):hover,
+.cards-perros:nth-child(5):hover,
+.cards-perros:nth-child(6):hover {
+  scale: 1.05;
 }
 
-.cards-perros img:hover {
-    transform: scale(1.05);
+.cards-info-line::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgba(255,255,255,0.11);
+    background: linear-gradient(270deg,rgba(255,255,255,0.11) 0%, rgba(192,192,192,0) 40%, rgba(0,0,0,0.62) 80%);
+    background: -webkit-linear-gradient(270deg,rgb(255 255 255 / 0%) 0%, rgba(192,192,192,0) 5%, rgba(0,0,0,0.62) 80%);
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+} 
+
+.cards-info-line:hover::after {
+    opacity: 1;
 }

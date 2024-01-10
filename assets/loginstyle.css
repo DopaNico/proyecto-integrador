@@ -24,27 +24,22 @@ body {
 }
 
 .login-box {
-    width: 320px;
-    height: 420px;
+    width: 360px;
+    height: 460px;
     background-color: white;
     color: black;
     padding: 20px;
     border-radius: 20px;
-    /* position: absolute;
-    top: 50%;
-    left: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .login-box img {
     width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: 50px;
-    left: calc(50% - 50px);
-    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.75);
+    /* height: 70px; */
+    background-color: white;
 }
 
 .login-box h1 {
@@ -85,6 +80,7 @@ body {
     font-size: 18px;
     cursor: pointer;
     width: 100%;
+    border: 3px solid transparent;
 }
 
 .login-box button a {
@@ -113,4 +109,80 @@ body {
 
 .links a:hover {
     color: black;
+}
+
+/* Responsive */
+
+
+@media(max-width: 2560px) and (min-width: 1600px) {
+    .login-box {
+        width: 560px;
+        height: 750px;
+    }
+
+    .login-box img {
+        width: 200px;
+    }
+
+    .login-box h1 {
+        font-size: 38px;
+    }
+
+    .login-box label {
+        font-size: 28px;
+    }
+
+    .login-box input[type="email"],
+    .login-box input[type="password"] {
+        height: 56px;
+        font-size: 30px;
+    }
+
+    .login-box button {
+        font-size: 28px;
+    }
+
+    .links {
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 768px) {
+    .login-box {
+        width: 200px;
+        height: 270px;
+    }
+
+    .login-box h1 {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .login-box img {
+        width: 45px;
+    }
+
+    .login-box label {
+        font-size: 12px;
+    }
+
+    .login-box input {
+        margin-bottom: 15px;
+    }
+
+    .login-box input[type="email"],
+    .login-box input[type="password"] {
+        height: 20px;
+        font-size: 12px;
+    }
+
+    .login-box button {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .links {
+        gap: 5px;
+        font-size: 8px;
+    }
 }

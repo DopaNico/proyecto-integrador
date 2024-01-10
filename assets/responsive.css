@@ -10,6 +10,11 @@
 
     .services-info-details {
         width: 300px;
+        justify-content: flex-start;
+    }
+
+    .services-info-details:nth-child(2) p {
+        width: 70%;
     }
 
     .contacto {
@@ -203,6 +208,11 @@
         font-size: 14px;
         text-align: center;
     }
+
+    .btn-hero {
+        flex-direction: column;
+        top: 25px;
+    }
     
     .btn-primary,
     .btn-secondary {
@@ -219,10 +229,10 @@
         width: 320px;
     }
 
-    .cards-perros img {
+    /* .cards-perros img {
         height: 320px;
         width: 285px;
-    }
+    } */
 
     .contacto-info {
         flex-direction: column;
@@ -310,6 +320,12 @@
         padding: 20px;
     }
 
+    .btn-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
     .cards {
         padding: 10px;
         margin-top: 15px;
@@ -322,11 +338,6 @@
 
     .cards-perros {
         width: 200px;
-    }
-
-    .cards-perros img {
-        height: 150px;
-        width: 155px;
     }
 
     footer {
@@ -348,5 +359,14 @@
 
     .rights p {
         text-align: center;
+    }
+}
+
+/* Login Responsive */
+
+@media(max-width: 2560px) and (min-width: 1600px) {
+    .login-box {
+        width: 460px;
+        height: 520px;
     }
 }
