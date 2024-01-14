@@ -125,11 +125,7 @@ main {
 
 
 .hero {
-<<<<<<< HEAD
-    background-image: url(/assets/portada2.jpg);
-=======
     background-image: url(../assets/portada2.jpg);
->>>>>>> 6e793ce (Modificado tamaño de titulos en resolucion 2560px)
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -60px;
