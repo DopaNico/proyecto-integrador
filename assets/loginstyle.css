@@ -116,6 +116,7 @@ body {
 
 @media(max-width: 2560px) and (min-width: 1600px) {
     .login-box {
+<<<<<<< HEAD
         width: 560px;
         height: 750px;
     }
@@ -130,10 +131,27 @@ body {
 
     .login-box label {
         font-size: 28px;
+=======
+        width: 400px;
+        height: 480px;
+    }
+
+    .login-box img {
+        width: 120px;
+    }
+
+    .login-box h1 {
+        font-size: 26px;
+    }
+
+    .login-box label {
+        font-size: 18px;
+>>>>>>> 6e793ce (Modificado tamaño de titulos en resolucion 2560px)
     }
 
     .login-box input[type="email"],
     .login-box input[type="password"] {
+<<<<<<< HEAD
         height: 56px;
         font-size: 30px;
     }
@@ -144,6 +162,19 @@ body {
 
     .links {
         font-size: 22px;
+=======
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .login-box button {
+        padding: 10px 0px;
+        font-size: 18px;
+    }
+
+    .links {
+        font-size: 14px;
+>>>>>>> 6e793ce (Modificado tamaño de titulos en resolucion 2560px)
     }
 }
 
