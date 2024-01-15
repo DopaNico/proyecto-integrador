@@ -17,12 +17,14 @@
 .container-portada  {
     background:url(../assets/portada2.jpg)no-repeat center/cover;
     width: 70%;
-    height: 150vh;
+    height: 100vh;
 }
 
+
+
 .container-box {
-    margin: 0 70px;
-    padding: 20px;
+    margin: 10px 30px;
+    /*padding: 20px;*/
 }
 
 .register-box {
