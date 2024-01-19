@@ -8,6 +8,10 @@
         max-width: 1500px;
     }
 
+    .services {
+        max-width: 1500px;
+    }
+
     .services-info-details {
         width: 300px;
         justify-content: flex-start;
